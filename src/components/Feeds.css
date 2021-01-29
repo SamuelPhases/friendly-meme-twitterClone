@@ -1,0 +1,129 @@
+.feeds {
+  padding: 1em;
+  display: flex;
+  width: 100%;
+  /* background-color: #186; */
+  position: relative;
+  border-bottom: 1px solid #e6ecf0;
+  cursor: pointer;
+}
+
+.feeds:hover {
+  background-color: #e6ecf0;
+}
+
+.feeds__dp {
+  flex: 0.15;
+  height: 5rem;
+  background-color: #268;
+}
+
+.feeds__header {
+  display: flex;
+  align-items: center;
+}
+.feeds__header h3 {
+  font-size: 0.95rem;
+  color: var(--sidenav-text);
+}
+
+.feeds__header p {
+  font-size: 0.9rem;
+  color: #ccc;
+  padding-left: 0.5rem;
+}
+
+.feeds__content {
+  flex: 0.85;
+  padding-left: 1em;
+}
+
+.feeds__content p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.feeds__icon {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.feeds__icon > div:hover {
+  /* background-color: #1da1f250; */
+}
+.feeds__icon > div {
+  /* background-color: #820; */
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.feeds__icon > div > div:hover {
+  background-color: #4e9ac950;
+}
+
+.feeds__icon > div > div {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  /* background-color: #992288; */
+  cursor: pointer;
+}
+
+.feeds__icon > div > div > .MuiSvgIcon-root {
+  font-size: 0.9rem;
+  color: #959ba6;
+}
+
+.feeds__icon > div > p {
+  font-size: 0.9rem;
+}
+
+.feeds__image {
+  margin-top: 1em;
+  /* height: 50%; */
+  border-radius: 10px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.expand {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  transform: translate(-3%, -3%);
+}
+
+.expand > .MuiSvgIcon-root {
+  color: #657786;
+}
+/* #657786 */
+
+.retweet__feed > div > .MuiSvgIcon-root {
+  font-size: 0.7rem;
+}
+.retweet__feed > p {
+  font-size: 0.75rem;
+}
+.retweet__feed {
+  display: flex;
+  /* background-color: #262; */
+  text-transform: capitalize;
+  color: #657786;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  transform: translate(-10%, -3%);
+}
+
+.feeds__content {
+  /* position: relative; */
+}

@@ -1,0 +1,81 @@
+.list__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3em 1.2em;
+}
+
+.list__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list__content > .MuiSvgIcon-root {
+  color: var(--twitter-color);
+}
+.list__icons > .MuiSvgIcon-root {
+  color: var(--twitter-color);
+  margin-right: 0.5em;
+}
+
+.cred {
+  padding-left: 2em;
+}
+
+.cred p {
+  font-size: 0.9rem;
+  color: #657786;
+}
+.cred h3 {
+  color: var(--sidenav-text);
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.pinned__list {
+  font-weight: 900;
+  padding: 0.5em 1.2em;
+  border-top: 1px solid #e6ecf0;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.pin__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  text-align: center;
+  color: #657786;
+  border-bottom: 10px solid #e6ecf0;
+}
+
+.pin__items p {
+  font-size: 0.95rem;
+}
+
+.list__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.list__block p {
+  padding-bottom: 1.5em;
+  color: #657786;
+}
+.list__block h3 {
+  color: var(--sidenav-text);
+  padding-bottom: 0.5em;
+}
+
+.list__block button {
+  background-color: var(--twitter-color);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding: 0.7em 1em;
+  font-weight: 900;
+  font-size: 0.9rem;
+}

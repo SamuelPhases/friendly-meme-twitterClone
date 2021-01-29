@@ -1,0 +1,35 @@
+.bookmark--scroll {
+  position: sticky;
+  top: 0;
+  z-index: 300;
+  background-color: #fff;
+  /* margin-bottom: 3em; */
+}
+
+.bookmark__notification p {
+  color: #657786;
+  font-size: 0.9rem;
+}
+.bookmark__notification h3 {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: var(--sidenav-text);
+  /* line-height: 1; */
+}
+.bookmark__notification {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.bookmark__item {
+  padding: 2em;
+  text-align: center;
+}
+.bookmark__item p {
+  color: #657786;
+}
+.bookmark__item h3 {
+  padding-bottom: 0.5em;
+  word-spacing: 0.1em;
+  color: var(--sidenav-text);
+}

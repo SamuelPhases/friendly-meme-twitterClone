@@ -1,0 +1,47 @@
+.follow__item {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 0.5em 1em;
+  /* margin-bottom: 2em; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.follow__item:hover {
+  background-color: #eef1f3;
+}
+
+.follow__item button {
+  background-color: transparent;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.7em 1.5em;
+  font-weight: bold;
+  color: var(--twitter-color);
+  border-radius: 30px;
+  border: 1px solid var(--twitter-color);
+  cursor: pointer;
+}
+
+.follow__item button:hover {
+  background-color: #bfe3fa;
+}
+.follow__category {
+  display: flex;
+  align-items: center;
+}
+
+.follow__dp {
+  height: 3rem;
+  margin-right: 0.5em;
+  width: 3rem;
+  background-color: #201;
+}
+.follow__profile h3 {
+  font-size: 0.95rem;
+}
+.follow__profile p {
+  font-size: 0.8rem;
+  color: #657786;
+}

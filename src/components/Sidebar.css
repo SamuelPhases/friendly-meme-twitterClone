@@ -1,0 +1,69 @@
+.logo {
+  width: 10%;
+  /* margin-top: 3em; */
+  margin-left: 1em;
+}
+
+.nav {
+  padding: 1em;
+  min-height: 100vh;
+  /* background-color: #9728; */
+  flex: 0.2;
+  /* background-color: red; */
+  /* position: sticky; */
+  /* top: 0; */
+  /* left: 0; */
+  overflow: none !important;
+}
+
+.tweet-btn {
+  padding: 0.6em 2em;
+  width: 90%;
+  background-color: #1da1f2;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 0.5em 0;
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5em 0;
+  cursor: pointer;
+  padding: 0.6em 1em;
+  border-radius: 30px;
+}
+
+.user:hover {
+  background-color: #d3ebfa;
+}
+.side {
+  display: flex;
+  align-items: center;
+}
+.side > div > h2 {
+  line-height: 0;
+  font-size: 1rem;
+  text-align: left;
+  color: var(--sidenav-text);
+}
+.side > div > p {
+  line-height: 0;
+  font-size: 1rem;
+  padding-top: 0.7em;
+  text-align: left;
+  padding-left: 0.4em;
+}
+
+.side > div > p {
+  color: #657786;
+}
+.side > .MuiSvgIcon-root {
+  font-size: 2.5rem;
+}

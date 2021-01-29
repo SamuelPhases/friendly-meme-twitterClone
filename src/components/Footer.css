@@ -1,0 +1,25 @@
+footer {
+  width: 80%;
+  margin: 0em auto;
+  padding-bottom: 3em;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+footer > ul > li > a {
+  font-size: 0.8rem;
+  color: #657786;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: #657786;
+}

@@ -1,0 +1,50 @@
+.trend__item {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 0.5em 1em;
+  /* margin-bottom: 2em; */
+  cursor: pointer;
+}
+
+.trend__item:hover {
+  background-color: #eef1f3;
+}
+
+.category > .trend__icon > .MuiSvgIcon-root {
+  color: #657786;
+}
+
+.trend__icon {
+  width: 2rem;
+  height: 2rem;
+  /* background-color: #829; */
+  display: grid;
+  border-radius: 50%;
+  cursor: pointer;
+  place-items: center;
+}
+
+.trend__icon:hover {
+  background-color: #4e9ac950;
+  color: #fff;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category > p {
+  font-size: 0.8rem;
+  color: #657786;
+}
+
+.trend__item > p {
+  margin-top: 0.5em;
+  font-size: 0.8rem;
+  color: #657786;
+}
+.trend__item > h3 {
+  font-size: 0.9rem;
+  color: #14171a;
+}

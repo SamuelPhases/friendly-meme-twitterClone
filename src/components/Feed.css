@@ -1,0 +1,164 @@
+.feed {
+  flex: 0.5;
+  border: 1px solid #e6ecf0;
+  border-top: none;
+  border-bottom: none;
+  /* overflow-y: scroll; */
+  overflow: auto;
+  height: 100vh;
+  /* background-color: blue; */
+  /* width: 100%; */
+}
+
+.feed::-webkit-scrollbar {
+  /* display: none; */
+  width: 0;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feed__header {
+  padding: 1em;
+  border-bottom: 1px solid #e6ecf0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.feed__inputBlock {
+  padding: 1em;
+  padding-bottom: 0em;
+  border-bottom: 10px solid #e6ecf0;
+  /* background-color: #920; */
+}
+
+.feed__input {
+  display: flex;
+  align-items: center;
+}
+
+.feed__input > .MuiSvgIcon-root {
+  font-size: 3rem;
+  /* flex: 0.2; */
+}
+
+.feed__input textarea:focus {
+  outline: none;
+}
+.feed__input textarea {
+  /* flex: 0.8; */
+  resize: none;
+  width: 100%;
+  padding: 1em;
+  border: none;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 1rem;
+  font-family: inherit;
+}
+.feed__input textarea::placeholder {
+  color: #959ba6;
+  font-family: inherit;
+}
+
+.feed__icons > div:hover {
+  background-color: #4e9ac950;
+}
+
+.feed__icons > div {
+  /* color: green; */
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  border-radius: 50%;
+  place-items: center;
+  cursor: pointer;
+}
+.feed__icons > div > .MuiSvgIcon-root {
+  font-size: 1.5rem;
+  /* padding: 1rem; */
+  color: #1da1f2;
+}
+
+.feed__input__addons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0em auto;
+  padding: 1em 0em;
+}
+
+.feed__icons {
+  padding-left: 4em;
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feed__input__addons button {
+  padding: 0.5em 1.2em;
+  border-radius: 30px;
+  border: none;
+  background-color: #bfe3fa;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+/* EXPLORE */
+.events {
+  position: relative;
+}
+
+.img--overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(to top, #35353a, transparent);
+}
+.img__content {
+  position: absolute;
+  bottom: 5%;
+  object-fit: contain;
+  left: 5%;
+  transform: translate(-5%, -5%);
+  color: #fff;
+  z-index: 2;
+}
+
+.img__content > h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.img__content > p {
+  font-size: 0.8rem;
+}
+
+.feed__trend {
+  border-bottom: 10px solid #e6ecf0;
+  border-top: 10px solid #e6ecf0;
+}
+
+.feed__trend--topic > h2 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.feed__trend--topic {
+  padding: 0.5em;
+  padding-left: 0.35em;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.explore__column {
+  border-bottom: 10px solid #e6ecf0;
+}

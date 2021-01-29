@@ -1,0 +1,14 @@
+.explorefeed__topic {
+  padding: 0.3em 0.8em;
+  border-bottom: 1px solid #e6ecf0;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.explorefeed__topic > .MuiSvgIcon-root {
+  color: #657786;
+}
